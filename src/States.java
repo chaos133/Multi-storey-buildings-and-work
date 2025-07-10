@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class States{
-    private String field;
+    private final String field;
     public int value;
-    private int changeSize;
+    private final int changeSize;
     private JLabel valueNow;
 
     public States(String field, int startValue, int changeSize, JPanel mainPanel) {

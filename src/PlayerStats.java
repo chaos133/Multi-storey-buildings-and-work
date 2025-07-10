@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.util.Arrays;
-import java.util.HashMap;
+//import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+//import java.util.Map;
 
 public class PlayerStats {
-    JFrame frame = new JFrame("Stats");
+    //JFrame frame = new JFrame("Stats");
     JPanel mainPanel = new JPanel();
     public List<States> statsList;
 
@@ -17,7 +17,7 @@ public class PlayerStats {
     Pair<String, Integer> deception = new Pair<>("Пиздёж", 0);
     Pair<String, Integer> experience = new Pair<>("Опыт", 0);
     Pair<String, Integer> contact = new Pair<>("Связи", 0);
-    Pair<String, Integer> income = new Pair<>("Доход", 1000);
+//    Pair<String, Integer> income = new Pair<>("Доход", 1000);
     Pair<String, Integer> ballance = new Pair<>("Баланс", 0);
     Pair<String, Integer> efficiency = new Pair<>("Эффективность", 0);
 
